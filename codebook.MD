@@ -5,9 +5,13 @@
 This dataset contains the following columns:
 
 _subject_: The ID of the subject associated with each observation (1-30)
+
 _activity_: The activity associated with each measurement (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, or LAYING)
+
 _measure_: The type of measurement: mean or standard deviation
+
 _variable_: the name of the feature (see below)
+
 _value_: the value of the feature (normalized and bounded within [-1,1])
 
 ## Data processing
