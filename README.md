@@ -22,9 +22,10 @@ The script, _run_analysis.R_, transforms the raw set into the tidy set by:
 
 1. Combining the training and test datasets
 2. Linking the measurements to subject IDs
-3. Laveling each activity and feature
+3. Labeling each activity and feature
 4. Computing means and SDs for each activity, by subject and activity
-5. Reorganizing the data so that each feature/activity/subject/measure (mean or SD) combination is in its own row
+5. Removing all measurements other than means and SDs
+6. Reshaping the data so that each feature/activity/subject/measure (mean or SD) combination is in its own row
 
 To use the script, download the raw dataset here: http://archive.ics.uci.edu/ml/machine-learning-databases/00240/
 
