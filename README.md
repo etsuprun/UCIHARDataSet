@@ -2,7 +2,7 @@
 
 ## What this does
 
-This script, _run_analysis.R_, transforms the raw HAR dataet (Human Activity Recognition Using Smartphones Dataset) into a tidy set. This repo also includes the resulting tidy dataset (output.txt) and the codebook (codebook.MD).
+This script, _run_analysis.R_, transforms the raw HAR dataset (Human Activity Recognition Using Smartphones Dataset) into a tidy set. This repo also includes the resulting tidy dataset (output.txt) and the codebook (codebook.MD).
 
 The script was written by Eugene Tsuprun for a course project (Getting and Cleaning Data, https://www.coursera.org/course/getdata, June 2015).
 
